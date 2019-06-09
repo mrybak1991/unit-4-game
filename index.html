@@ -16,19 +16,57 @@
             <h2>Boxing RPG Game</h2>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <img src="assets/images/AJ.jpg" alt="Anthony Joshua">
+            <br>
+        </div>
+        <div class="row">
+            <div id="ajPic" class="col-md-3">
+                <img id="pic" src="assets/images/AJ.jpg" alt="Anthony Joshua">
+                <div class="ajText">Anthony Joshua</div>
             </div>
-            <div class="col-md-3">
-                    <img src="assets/images/fury.jpg" alt="Anthony Joshua">
+            <div id="furyPic" class="col-md-3">
+                    <img src="assets/images/fury.jpg" alt="Tyson Fury">
+                    <div class="furyText">Tyson Fury</div>
             </div>
-            <div class="col-md-3">
-                    <img src="assets/images/wilder.jpeg" alt="Anthony Joshua">
+            <div id="wilderPic" class="col-md-3">
+                    <img src="assets/images/wilder.jpeg" alt="Deontay Wilder">
+                    <div class="wilderText">Deontay Wilder</div>      
             </div>
-            <div class="col-md-3">
-                    <img src="assets/images/ruiz.jpeg" alt="Anthony Joshua">
+            <div id ="ruizPic" class="col-md-3">
+                    <img src="assets/images/ruiz.jpeg" alt="Andy Ruiz Jr.">
+                    <div class="ruizText">Andy Ruiz Jr.</div>
+            </div>
+        </div>
+        <div class="row">
+            <br>
+        </div>
+        <div class="row"> 
+            <div id="challengerBox" class="col-md-3">
+                <h3>Challenger</h3>
+                <div class="challenger"></div>
+                <div class="challenderHp"></div>
+            </div>
+
+            <div class="col-md-1"> </div>         
+           
+            <div id="punchBox" class="col-md-3">
+                    <button type="button" class="btn btn-danger" id="attack">Punch</button>
+                    <div class="challengerStatement"></div>
+                    <br>
+                    <div class="defenderStatement"></div>
+            </div>
+
+            <div class="col-md-1"> </div>         
+
+            <div id= "defenderBox" class="col-md-3">
+                <h3>Defender</h3>
+                <div class="defender"></div>
+                <div class="defenderHp"></div>
             </div>
         </div>
     </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
 </html>

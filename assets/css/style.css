@@ -2,3 +2,69 @@ img{
     width: 150px;
     height: 150px;
 }
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    background-image: url("../images/boxingring.jpg");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+    
+}
+
+#attack{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+#ajPic{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#furyPic{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#wilderPic{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#ruizPic{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#challengerBox{
+    border-style: solid;
+    border-color: white;
+    height: 300px;
+}
+
+#defenderBox{
+    border-style: solid;
+    border-color: white;
+    height: 300px;
+}
+
+#punchBox{
+    border-style: solid;
+    border-color: red;
+    height: 300px;
+}

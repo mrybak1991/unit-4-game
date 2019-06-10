@@ -14,31 +14,40 @@
     <div class="container">
         <div class="row">
             <h2>Boxing RPG Game</h2>
+            <br>
+            <h2> Rules: 1. Pick a challenger 2. Pick an opponent 3. Click Punch until a winner is determined </h2>
         </div>
         <div class="row">
             <br>
         </div>
-        <div class="row">
+        <div id="fighters" class="row">
             <div id="ajPic" class="col-md-3">
-                <img id="pic" src="assets/images/AJ.jpg" alt="Anthony Joshua">
+                <img id="pic" src="assets/images/anthonyJoshua.jpg" alt="Anthony Joshua">
                 <div class="ajText">Anthony Joshua</div>
             </div>
             <div id="furyPic" class="col-md-3">
-                    <img src="assets/images/fury.jpg" alt="Tyson Fury">
+                    <img id="pic" src="assets/images/tysonFury.jpg" alt="Tyson Fury">
                     <div class="furyText">Tyson Fury</div>
             </div>
             <div id="wilderPic" class="col-md-3">
-                    <img src="assets/images/wilder.jpeg" alt="Deontay Wilder">
+                    <img id="pic" src="assets/images/deontayWilder.jpeg" alt="Deontay Wilder">
                     <div class="wilderText">Deontay Wilder</div>      
             </div>
             <div id ="ruizPic" class="col-md-3">
-                    <img src="assets/images/ruiz.jpeg" alt="Andy Ruiz Jr.">
+                    <img id="pic" src="assets/images/andyRuiz.jpeg" alt="Andy Ruiz Jr.">
                     <div class="ruizText">Andy Ruiz Jr.</div>
             </div>
         </div>
         <div class="row">
             <br>
         </div>
+        <div id="possibleDefenders" class ="row">
+            <H3>Possible Defenders</H3>
+            <p class = "possibleDefenders"></p>
+            <br> 
+        </div>
+        <br>
+
         <div class="row"> 
             <div id="challengerBox" class="col-md-3">
                 <h3>Challenger</h3>
@@ -49,7 +58,7 @@
             <div class="col-md-1"> </div>         
            
             <div id="punchBox" class="col-md-3">
-                    <button type="button" class="btn btn-danger" id="attack">Punch</button>
+                    <button type="button" class="btn btn-danger" id="punch">Punch</button>
                     <div class="challengerStatement"></div>
                     <br>
                     <div class="defenderStatement"></div>

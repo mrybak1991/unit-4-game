@@ -22,7 +22,7 @@ body{
     
 }
 
-#attack{
+#punch{
     margin-left: 90px;
     margin-top: 10px;
 }
@@ -67,4 +67,11 @@ body{
     border-style: solid;
     border-color: red;
     height: 300px;
+}
+
+#possibleDefenders{
+    Height: 220px;
+    width: 1044px;
+    border-style: solid;
+    border-color: white;
 }

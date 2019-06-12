@@ -13,12 +13,13 @@ html,body{
 }
 
 body{
-    background-image: url("../images/boxingring.jpg");
+    background-image: url("../css/images/boxingring.jpg");
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover;
     background-color: #999;
+    color: red;
     
 }
 
@@ -30,25 +31,25 @@ body{
 #ajPic{
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #furyPic{
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #wilderPic{
     position: relative;
     text-align: center;
-    color: white;
+    color:black;
 }
 
 #ruizPic{
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #challengerBox{
@@ -74,4 +75,8 @@ body{
     width: 1044px;
     border-style: solid;
     border-color: white;
+}
+
+.img {
+    display: inline-block;
 }

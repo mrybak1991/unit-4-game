@@ -21,20 +21,21 @@
             <br>
         </div>
         <div id="fighters" class="row">
-            <div id="ajPic" class="col-md-3">
-                <img id="pic" src="assets/images/anthonyJoshua.jpg" alt="Anthony Joshua">
-                <div class="ajText">Anthony Joshua</div>
+            <!-- add an class of 'select' -->
+            <div id="anthonyJoshua" class="select-challenger col-md-3">
+                <img id="pic" src="assets/css/images/anthonyJoshua.jpg" alt="Anthony Joshua">
+                <div id="anthonyJoshuaValue">Anthony Joshua</div>
             </div>
-            <div id="furyPic" class="col-md-3">
-                    <img id="pic" src="assets/images/tysonFury.jpg" alt="Tyson Fury">
+            <div id="tysonFury" class="select-challenger col-md-3">
+                    <img id="pic" src="assets/css/images/tysonFury.jpg" alt="Tyson Fury">
                     <div class="furyText">Tyson Fury</div>
             </div>
-            <div id="wilderPic" class="col-md-3">
-                    <img id="pic" src="assets/images/deontayWilder.jpeg" alt="Deontay Wilder">
+            <div id="deontayWilder" class="select-challenger col-md-3">
+                    <img id="pic" src="assets/css/images/deontayWilder.jpeg" alt="Deontay Wilder">
                     <div class="wilderText">Deontay Wilder</div>      
             </div>
-            <div id ="ruizPic" class="col-md-3">
-                    <img id="pic" src="assets/images/andyRuiz.jpeg" alt="Andy Ruiz Jr.">
+            <div id ="andyRuiz" class="select-challenger col-md-3">
+                    <img id="pic" src="assets/css/images/andyRuiz.jpeg" alt="Andy Ruiz Jr.">
                     <div class="ruizText">Andy Ruiz Jr.</div>
             </div>
         </div>
@@ -43,7 +44,8 @@
         </div>
         <div id="possibleDefenders" class ="row">
             <H3>Possible Defenders</H3>
-            <p class = "possibleDefenders"></p>
+            <div id="defenders"></div>
+            
             <br> 
         </div>
         <br>
@@ -51,8 +53,8 @@
         <div class="row"> 
             <div id="challengerBox" class="col-md-3">
                 <h3>Challenger</h3>
-                <div class="challenger"></div>
-                <div class="challenderHp"></div>
+                <div id="challenger-name"></div>
+                <div id="challenger-hp"></div>
             </div>
 
             <div class="col-md-1"> </div>         
@@ -68,8 +70,8 @@
 
             <div id= "defenderBox" class="col-md-3">
                 <h3>Defender</h3>
-                <div class="defender"></div>
-                <div class="defenderHp"></div>
+                <div id="defender-boxer" class="defender"></div>
+                <div id="defender-hp" class="defenderHp"></div>
             </div>
         </div>
     </div>
